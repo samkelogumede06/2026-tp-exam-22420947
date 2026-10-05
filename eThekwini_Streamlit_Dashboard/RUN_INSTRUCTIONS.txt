@@ -1,0 +1,55 @@
+eThekwini Election Intelligence — Streamlit Dashboard
+
+FILES THAT MUST BE IN THE SAME FOLDER
+-------------------------------------
+streamlit_app.py
+forecast_party_table.csv
+forecast_wards.csv
+historical_party_shares.csv
+sensitivity_analysis.csv
+metro_stats.csv
+split_summary.csv
+validation_scores.csv
+model_metrics.json
+requirements.txt
+
+BEFORE RUNNING
+--------------
+1. Open the final notebook in Google Colab.
+2. Runtime -> Restart session and run all.
+3. Confirm every notebook cell completes without error.
+4. Confirm the final held-out test accuracy still exceeds 70%.
+5. Paste/run the supplied FINAL DASHBOARD EXPORT CELL after the analysis is complete.
+6. Confirm it prints a check mark for every dashboard artefact.
+7. Download/copy all exported CSV/JSON files into the SAME folder as streamlit_app.py.
+8. Do not manually edit forecast values in the CSV/JSON files.
+
+LOCAL RUN
+---------
+Open a terminal in this folder, then:
+
+python -m venv .venv
+
+Windows:
+.venv\Scripts\activate
+
+macOS/Linux:
+source .venv/bin/activate
+
+Install:
+python -m pip install -r requirements.txt
+
+Run:
+python -m streamlit run streamlit_app.py
+
+Streamlit normally opens:
+http://localhost:8501
+
+STOP:
+Ctrl+C in the terminal.
+
+IMPORTANT
+---------
+The dashboard deliberately reads notebook-exported outputs instead of rerunning
+the ML pipeline. This keeps the displayed forecast and metrics identical to the
+final executed notebook.

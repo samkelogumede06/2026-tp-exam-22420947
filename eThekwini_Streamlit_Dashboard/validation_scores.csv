@@ -1,0 +1,4 @@
+Model,Validation accuracy,Validation balanced accuracy,Validation macro F1
+Random forest,0.968,0.6172839506172839,0.637093886381439
+Logistic regression,0.828,0.6373456790123457,0.3898967809328418
+Dummy majority,0.648,0.25,0.1966019417475728

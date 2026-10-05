@@ -1,0 +1,15 @@
+{
+  "model": "Random forest",
+  "test_accuracy": 0.9642857142857143,
+  "balanced_accuracy": 0.4878472222222222,
+  "weighted_f1": 0.9605238406500236,
+  "macro_f1": 0.4834427487424333,
+  "turnout_mae": 0.04383850841678728,
+  "turnout_rmse": 0.06826894777343896,
+  "turnout_r2": 0.71967422578404,
+  "forecast_turnout": 0.3560384317976357,
+  "forecast_registered": 2074375.3333333358,
+  "forecast_valid_votes": 723225.9941433901,
+  "forecast_year": 2026,
+  "recent_weight": 0.6
+}
